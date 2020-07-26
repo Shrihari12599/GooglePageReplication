@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  height: 40px;
+  padding-right: 25px;
+}
+li {
+  float: right;
+  padding: 10px 5px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: black;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.app-list-item {
+  padding: 7px 5px;
+}
+.app {
+  width: 23px;
+  height: 23px;
+}
+.google-account {
+  text-align: center;
+  transform: scale(1);
+  background-color: #f08a5d;
+  border-radius: 100%;
+  border: none;
+}
+.google-account a {
+  color: white;
+}
+.google-account a:hover {
+  text-decoration: none;
+}
+.center-page {
+  position: relative;
+  text-align: center;
+  margin-top: 250px;
+  height: 200px;
+}
+.google-logo {
+  transform: scale(1);
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 170px;
+  left: 620px;
+}
+
+.search-box {
+  position: absolute;
+  text-indent: 50px;
+  font-size: 20px;
+  width: 630px;
+  height: 45px;
+  border-radius: 20px;
+  border-width: 0.1px;
+  right: 442px;
+  opacity: 0.2;
+}
+.google-button {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: 80px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  color: gray;
+  outline: none;
+}
+.google-button:hover {
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.search-icon {
+  width: 20px;
+  position: absolute;
+  top: 15px;
+  left: 475px;
+  z-index: 1;
+  opacity: 0.5;
+}
+.voice-icon {
+  width: 40px;
+  position: absolute;
+  z-index: 1;
+  top: 13px;
+  left: 1040px;
+}
+.first {
+  left: 600px;
+}
+.second {
+  left: 770px;
+}
+.outline {
+  outline: none;
+}
+.center-page .links {
+  position: absolute;
+  top: 160px;
+  left: 464px;
+}
+.center-page .links a {
+  text-decoration: none;
+  font-size: 15px;
+  color: darkblue;
+  font-family: sans-serif;
+  margin-right: 5px;
+}
+.center-page .links .google-text {
+  color: black;
+}
+.transparent {
+  color: transparent;
+}
+.apps {
+  display: none;
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 5px;
+  top: 80px;
+  right: 40px;
+  overflow: scroll;
+  overflow-x: hidden;
+  z-index: 2;
+}
+.apps table {
+  width: 351px;
+}
+.apps table td {
+  width: 117px;
+  height: 100px;
+  text-align: center;
+}
+
+.apps table td:hover {
+  background-color: #f1f9f9;
+  cursor: pointer;
+}
+
+.apps table td button {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.apps table td img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: -3px;
+}
+
+.apps table td p {
+  margin-top: 12px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.apps table td a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+}
+.list {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+}
+.list li {
+  display: inline;
+  text-align: center;
+  font-size: 17px;
+}
+.india-text {
+  color: gray;
+  margin-left: 30px;
+}
+.list li a {
+  text-decoration: none;
+  color: gray;
+}
+.list li .india-text {
+  cursor: default;
+}
+.firstlist,
+.secondlist {
+  border: 2px solid #f0f0f0;
+  margin: 0;
+}
+.secondlist {
+  border-top: none;
+  padding: 0px 25px;
+}
+.firstlist li {
+  float: left;
+}
+.secondlist li {
+  padding: 5px;
+}
+.left {
+  float: left;
+}
